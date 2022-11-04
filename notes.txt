@@ -1,0 +1,7 @@
+cd into app
+git init
+git add.
+git commit -m
+login to heroku
+heroku create - creates new project
+git push heroku master
