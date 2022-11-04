@@ -2,6 +2,7 @@ import discord
 import requests
 import json
 import asyncio
+import os
 
 client = discord.Client(intents=discord.Intents.default())
 
@@ -49,4 +50,5 @@ async def on_message(message):
         
 
 
-client.run('MTAzNjU5MjU0OTg5NDMwMzc2NA.GqIOH2.Bxvo5xa-5ZSKQ7fmcLU8AzGUGDe-tAyE0c-Cx4'),
+client.run('DISCORD_TOKEN'),
+

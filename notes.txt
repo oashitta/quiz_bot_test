@@ -5,3 +5,10 @@ git commit -m
 login to heroku
 heroku create - creates new project
 git push heroku master
+
+python3 bot.py - to run it on the local server
+
+heroku run bash - to turn on bot in heroku
+$ ls
+
+python3 bot.py
